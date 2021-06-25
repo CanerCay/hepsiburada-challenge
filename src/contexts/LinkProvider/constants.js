@@ -1,0 +1,2 @@
+
+export const LINK_STORAGE_KEY = 'LINK_STORAGE_KEY';

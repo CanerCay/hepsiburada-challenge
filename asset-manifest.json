@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/hepsiburada-challenge/static/js/main.971002de.chunk.js",
-    "main.js.map": "/hepsiburada-challenge/static/js/main.971002de.chunk.js.map",
+    "main.js": "/hepsiburada-challenge/static/js/main.59075f4e.chunk.js",
+    "main.js.map": "/hepsiburada-challenge/static/js/main.59075f4e.chunk.js.map",
     "runtime-main.js": "/hepsiburada-challenge/static/js/runtime-main.a07748db.js",
     "runtime-main.js.map": "/hepsiburada-challenge/static/js/runtime-main.a07748db.js.map",
     "static/css/2.bd2cd217.chunk.css": "/hepsiburada-challenge/static/css/2.bd2cd217.chunk.css",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.a07748db.js",
     "static/css/2.bd2cd217.chunk.css",
     "static/js/2.5168f286.chunk.js",
-    "static/js/main.971002de.chunk.js"
+    "static/js/main.59075f4e.chunk.js"
   ]
 }

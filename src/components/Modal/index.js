@@ -18,6 +18,8 @@ const StyledPopup = styled(Popup)`
     
     .footer {
       text-align: center;
+      display: flex;
+      justify-content: space-around;
     }
   }
   

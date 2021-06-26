@@ -11,7 +11,7 @@ const Container = styled.section`
   }
   
   .link-list {
-  min-height: 300px;
+    min-height: 372px;
   
     li {
       display: flex;
@@ -21,8 +21,16 @@ const Container = styled.section`
       .right__content {
         flex: 1;
         padding: 0 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       
         p {
+          margin: 5px 0;
+        }
+        
+        a {
+          color: ${props => props.theme.name === 'light' ? 'var(--black)' : 'var(--white)'};
           margin: 5px 0;
         }
         
@@ -47,6 +55,11 @@ const Container = styled.section`
     li {
       display: inline-block;
       padding:0 15px;
+      
+      &.active {
+        color: ${props => props.theme.color};
+      }
+    }
   }
 `;
 

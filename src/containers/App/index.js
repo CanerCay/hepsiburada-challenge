@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {ThemeProvider} from "styled-components";
 import Helmet from "react-helmet";
+import {ToastContainer} from "react-toastify";
 
 import NoFound from '../NoFound/loadable';
 import LinkList from '../LinkList/loadable';
@@ -10,6 +11,8 @@ import GlobalStyle from "../../theme/globalStyle";
 import light from "../../theme/light";
 import ThemePopup from "../../components/Shared/ThemePopup";
 import LinkProvider from "../../contexts/LinkProvider";
+
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   const [theme, setTheme] = useState(light);
@@ -23,6 +26,7 @@ const App = () => {
         <LinkProvider>
           <ThemePopup setTheme={setTheme}/>
           <GlobalStyle/>
+          <ToastContainer />
           <Router basename={process.env.PUBLIC_URL}>
             <Switch>
               <Route path="/" exact children={<LinkList/>}/>

@@ -78,10 +78,10 @@ const AddNewLink = () => {
 
             <Button
               onClick={() => {
-                if (!name || !url || !validURL(url)) {
+                if (!name.trim().length || !url.trim().length || !validURL(url)) {
                   setErrorText({
-                    name: !name ? 'Name is required' : '',
-                    url: !url ? 'URL is required': !validURL(url) ? 'Please enter a valid url' : '',
+                    name: !name.trim().length ? 'Name is required' : '',
+                    url: !url.trim().length ? 'URL is required': !validURL(url) ? 'Please enter a valid url' : '',
                   });
 
                   return;

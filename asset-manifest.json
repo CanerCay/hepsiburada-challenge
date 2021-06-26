@@ -2,15 +2,15 @@
   "files": {
     "main.js": "/hepsiburada-challenge/static/js/main.59075f4e.chunk.js",
     "main.js.map": "/hepsiburada-challenge/static/js/main.59075f4e.chunk.js.map",
-    "runtime-main.js": "/hepsiburada-challenge/static/js/runtime-main.3983d407.js",
-    "runtime-main.js.map": "/hepsiburada-challenge/static/js/runtime-main.3983d407.js.map",
+    "runtime-main.js": "/hepsiburada-challenge/static/js/runtime-main.97787acf.js",
+    "runtime-main.js.map": "/hepsiburada-challenge/static/js/runtime-main.97787acf.js.map",
     "static/css/2.bd2cd217.chunk.css": "/hepsiburada-challenge/static/css/2.bd2cd217.chunk.css",
     "static/js/2.5168f286.chunk.js": "/hepsiburada-challenge/static/js/2.5168f286.chunk.js",
     "static/js/2.5168f286.chunk.js.map": "/hepsiburada-challenge/static/js/2.5168f286.chunk.js.map",
     "static/js/3.3ea50348.chunk.js": "/hepsiburada-challenge/static/js/3.3ea50348.chunk.js",
     "static/js/3.3ea50348.chunk.js.map": "/hepsiburada-challenge/static/js/3.3ea50348.chunk.js.map",
-    "static/js/4.f4699772.chunk.js": "/hepsiburada-challenge/static/js/4.f4699772.chunk.js",
-    "static/js/4.f4699772.chunk.js.map": "/hepsiburada-challenge/static/js/4.f4699772.chunk.js.map",
+    "static/js/4.db08970d.chunk.js": "/hepsiburada-challenge/static/js/4.db08970d.chunk.js",
+    "static/js/4.db08970d.chunk.js.map": "/hepsiburada-challenge/static/js/4.db08970d.chunk.js.map",
     "static/js/5.a9812af4.chunk.js": "/hepsiburada-challenge/static/js/5.a9812af4.chunk.js",
     "static/js/5.a9812af4.chunk.js.map": "/hepsiburada-challenge/static/js/5.a9812af4.chunk.js.map",
     "static/js/6.16fbac0b.chunk.js": "/hepsiburada-challenge/static/js/6.16fbac0b.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/logo.474c6e6d.svg": "/hepsiburada-challenge/static/media/logo.474c6e6d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3983d407.js",
+    "static/js/runtime-main.97787acf.js",
     "static/css/2.bd2cd217.chunk.css",
     "static/js/2.5168f286.chunk.js",
     "static/js/main.59075f4e.chunk.js"

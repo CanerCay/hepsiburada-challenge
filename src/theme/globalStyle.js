@@ -49,15 +49,9 @@ const GlobalStyle = createGlobalStyle`
     }
 
     a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 2px;
-      font-size: 14px;
-      font-weight: 500;
       user-select: none;
-      cursor: pointer;
       text-decoration: none;
+      cursor: pointer;
     }
 
     input:-webkit-autofill,

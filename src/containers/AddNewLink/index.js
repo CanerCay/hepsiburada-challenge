@@ -1,16 +1,16 @@
 import React, {useState} from 'react';
 import Helmet from "react-helmet";
-import {Redirect, useHistory} from 'react-router-dom';
+import {useHistory} from 'react-router-dom';
+import styled from "styled-components";
 
 import Header from "../../components/Shared/Header";
 import {LinkContext} from "../../contexts/LinkProvider";
-import styled from "styled-components";
 import Input from "../../components/Input";
 import Button from "../../components/Button";
 
-const Container = styled.div`
+const Container = styled.section`
   padding: 4em;
-  max-width: 400px;
+  max-width: 500px;
   margin: auto;
 
   hr {
@@ -18,7 +18,10 @@ const Container = styled.div`
     border-width: 1px;
   }
   
-  
+  ${Input} {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 `;
 
 const AddNewLink = () => {
@@ -41,13 +44,18 @@ const AddNewLink = () => {
             <Input placeholder='Link URL' value={url} onChange={(e) => setURL(e.target.value)} />
               <Button
                 onClick={() => {
+                  let uniqueId = Date.now().toString(36) + Math.random().toString(36).substring(2);
+
                   setLinks([
-                    ...links,
                     {
+                      id: uniqueId,
                       url,
                       name,
+                      vote: 0,
+                      date: Date.now(),
                     },
-                  ])
+                    ...links,
+                  ]);
 
                   history.push('/');
                 }}

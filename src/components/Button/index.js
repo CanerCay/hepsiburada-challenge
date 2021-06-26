@@ -1,7 +1,7 @@
-import styled from 'styled-components'
 import React from "react";
+import styled from 'styled-components'
 
-const Button = styled.a`
+const Button = styled.button`
   border-radius: 3px;
   padding: 0.75em 1.25em;
   font-size: 1em;

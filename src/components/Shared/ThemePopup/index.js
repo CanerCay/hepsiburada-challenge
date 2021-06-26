@@ -28,6 +28,10 @@ const ThemePopup = styled(StyledPopup)`
     
     .body {
       flex: 1;
+      
+      & > h4 {
+        margin-top: 15px;
+      }
     }
   }
 

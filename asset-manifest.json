@@ -2,8 +2,8 @@
   "files": {
     "main.js": "/hepsiburada-challenge/static/js/main.971002de.chunk.js",
     "main.js.map": "/hepsiburada-challenge/static/js/main.971002de.chunk.js.map",
-    "runtime-main.js": "/hepsiburada-challenge/static/js/runtime-main.67f94283.js",
-    "runtime-main.js.map": "/hepsiburada-challenge/static/js/runtime-main.67f94283.js.map",
+    "runtime-main.js": "/hepsiburada-challenge/static/js/runtime-main.a07748db.js",
+    "runtime-main.js.map": "/hepsiburada-challenge/static/js/runtime-main.a07748db.js.map",
     "static/css/2.bd2cd217.chunk.css": "/hepsiburada-challenge/static/css/2.bd2cd217.chunk.css",
     "static/js/2.5168f286.chunk.js": "/hepsiburada-challenge/static/js/2.5168f286.chunk.js",
     "static/js/2.5168f286.chunk.js.map": "/hepsiburada-challenge/static/js/2.5168f286.chunk.js.map",
@@ -11,8 +11,8 @@
     "static/js/3.3ea50348.chunk.js.map": "/hepsiburada-challenge/static/js/3.3ea50348.chunk.js.map",
     "static/js/4.15b8c1d7.chunk.js": "/hepsiburada-challenge/static/js/4.15b8c1d7.chunk.js",
     "static/js/4.15b8c1d7.chunk.js.map": "/hepsiburada-challenge/static/js/4.15b8c1d7.chunk.js.map",
-    "static/js/5.6892b913.chunk.js": "/hepsiburada-challenge/static/js/5.6892b913.chunk.js",
-    "static/js/5.6892b913.chunk.js.map": "/hepsiburada-challenge/static/js/5.6892b913.chunk.js.map",
+    "static/js/5.a9812af4.chunk.js": "/hepsiburada-challenge/static/js/5.a9812af4.chunk.js",
+    "static/js/5.a9812af4.chunk.js.map": "/hepsiburada-challenge/static/js/5.a9812af4.chunk.js.map",
     "static/js/6.16fbac0b.chunk.js": "/hepsiburada-challenge/static/js/6.16fbac0b.chunk.js",
     "static/js/6.16fbac0b.chunk.js.map": "/hepsiburada-challenge/static/js/6.16fbac0b.chunk.js.map",
     "index.html": "/hepsiburada-challenge/index.html",
@@ -21,7 +21,7 @@
     "static/media/logo.474c6e6d.svg": "/hepsiburada-challenge/static/media/logo.474c6e6d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.67f94283.js",
+    "static/js/runtime-main.a07748db.js",
     "static/css/2.bd2cd217.chunk.css",
     "static/js/2.5168f286.chunk.js",
     "static/js/main.971002de.chunk.js"
